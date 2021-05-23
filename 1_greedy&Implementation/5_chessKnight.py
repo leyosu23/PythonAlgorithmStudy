@@ -1,3 +1,10 @@
+'''
+Print out the number of cases in which a night can move
+given its position in an 8 x 8 coordinate plane.
+Row is expressed from to 1 to 8 from the top, and column is expressed from a to h from the left.
+A string consisting of two characters (e.g., a1, c6) is entered.
+'''
+
 data = input()
 row = int(data[1])
 column = int(ord(data[0])) - int(ord('a')) + 1

@@ -1,4 +1,11 @@
-# K1KA5CB7 -> ABCKK13
+'''
+A string consisting only of uppercase alphabetic characters and numbers (0-9) is given.
+Print all alphabets are sorted in ascending order, followed by all numbers added.
+
+(e.g., K1KA5CB7 -> ABCKK13 )
+'''
+
+
 dataInput = input()
 temp = []
 sum = 0
